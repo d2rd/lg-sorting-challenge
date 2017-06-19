@@ -1,41 +1,43 @@
-h1 {
+body {
+    background-color: teal;
+    margin-left: 30px;
+}
+
+
+/*classes*/
+
+.flexcontainer {
+    display: flex;
+    direction: row;
+}
+
+.flexFoodSection {
+    display: flex;
+    direction: column;
+}
+
+.flexSectionItem {
+    display: flex;
+    direction: row;
+    justify-content: flex-start;
+}
+
+.flexFoodItem {
+    display: flex;
+    direction: row;
+    justify-content: flex-end;
+}
+
+
+/*Styles for id'd elements in index.html*/
+
+#header {
     font-family: Georgia, serif;
     color: darkred;
-    padding-right: 700px;
-    padding-left: 45px;
 }
 
-section {
-    display: block;
-}
+#content {}
 
-#btnCart {
-    float: right;
-    font-family: sans-serif;
-    padding-left: 20px;
-    display: inline-block;
-    color: goldenrod;
-    font-weight: bold;
-}
+#foodSections {}
 
-#btnAddToCart {
-    float: right;
-    font-family: sans-serif;
-    padding-left: 20px;
-    display: inline-block;
-    color: green;
-    font-weight: bold;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    float: right;
-}
-
-li {
-    list-style: none;
-    display: inline-block;
-    float: left;
-    padding-right: 20px;
-}
+#groceryList {}
