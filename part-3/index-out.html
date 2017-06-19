@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Books, Bait and Beer</title>
+  <meta name="description" content="Goal #69 Simple Bookstore.">
+  <meta name="author" content="D2rd and Learners Guild">
+    <title>Books, Bait and Beer</title>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+  <body>
+    <section id="content"></section>
+
+    <script type='text/javascript' language='javascript' src='./public/javascripts/scripts.js'></script>
+    <script type="text/template">
+      <h1>{{title}}</h1>
+      <ul class="people">
+        {{#people}}
+          <li class="person">
+              <h3>{{name}}
+                <div>Age: {{Age}}</div>
+                <a href="mailto:{{email}}">Contact {{name}}</a>
+                </li>
+        {{/people}}
+      </ul>
+    </script>
+  </body>
+</html>
