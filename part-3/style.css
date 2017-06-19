@@ -1,0 +1,41 @@
+h1 {
+    font-family: Georgia, serif;
+    color: darkred;
+    padding-right: 700px;
+    padding-left: 45px;
+}
+
+section {
+    display: block;
+}
+
+#btnCart {
+    float: right;
+    font-family: sans-serif;
+    padding-left: 20px;
+    display: inline-block;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+#btnAddToCart {
+    float: right;
+    font-family: sans-serif;
+    padding-left: 20px;
+    display: inline-block;
+    color: green;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
