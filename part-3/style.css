@@ -1,34 +1,142 @@
 body {
     background-color: teal;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 
 /*classes*/
-
-.flexcontainer {
+.sectionHeader {
     display: flex;
     direction: row;
+    align-item: start;
+    vertical-align: middle;
+    text-align: flex-start;
+    justify-content: space-around;
+    font-size: 28px;
+ 
 }
 
-.flexFoodSection {
-    display: flex;
-    direction: column;
-}
-
-.flexSectionItem {
+.columnLayout {
     display: flex;
     direction: row;
-    justify-content: flex-start;
+    /*align-items: start;
+    justify-content: flex-end;*/
 }
 
-.flexFoodItem {
+.headerBtnCart {
     display: flex;
     direction: row;
     justify-content: flex-end;
 }
 
+#btnCart {
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  border: 1.5px white;
+  border-style: solid;
+  outline: none;
+  color: #000000;
+  padding: 5px 2px;
+  text-align: center;
+  text-decoration: none;
+  
+  
+}
 
+.sidebarFoodSection {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border: 1.5px #888f91;
+    border-style: solid;
+    align-items: flex-start;
+    
+}
+
+/*.foodSectionList {
+    display: flex;
+    direction: column;
+   flex: 2;
+}*/
+
+.foodSectionItem {
+    display: flex;
+    direction: row;
+    background: tomato;
+    padding: 5px;
+    width: 220px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    justify-content: flex-start;
+  }
+
+.mainGrocerySection {
+    display: flex;
+    direction: column;
+    flex: 3;
+    border: 1.0px #888f91;
+    border-style: solid;
+}
+/*.grocerySectionList {
+    display: flex;
+    direction: column;
+   flex: 2;
+}*/
+
+.grocerySectionColumn {
+    display: flex;
+    direction: column;
+   flex: 1;
+   font-family: Georgia, serif;
+}
+
+.groceryListItem {
+    display: flex;
+    direction: row;
+    background: tomato;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
+.groceryItemPrice {
+    display: flex;
+    direction: row;
+    background: tomato;
+    padding: 5px;
+    width: 110px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    color: white;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+.groceryItemAddToCart {
+
+}
 /*Styles for id'd elements in index.html*/
 
 #header {
@@ -36,8 +144,66 @@ body {
     color: darkred;
 }
 
-#content {}
+#content {
+    font-family: Georgia, serif;
+    color: darkred;
+    background-color: #cdf1c3;
+    margin-top: 5;
+    margin-right: 5;
+    margin-bottom: 5;
+    margin-left: 5;
 
-#foodSections {}
+}
 
-#groceryList {}
+#foodSections {
+    font-family: Georgia, serif;
+    color: darkred;
+    background-color: #dbd6d6;
+}
+
+#groceryList {
+    font-family: Georgia, serif;
+    color: darkred;
+    background-color: #c0dbe2;
+}
+
+#btnAddToCart {
+    display: flex;
+    direction: row;
+    font-family: Georgia, serif;
+  font-size: 18px;
+  border-radius: 50px;
+  width: 120px;
+  height: 50px;
+  background-color: green;
+  border: 1.5px white;
+  border-style: solid;
+  outline: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  /*model*/
+
+
+    /*display: flex;
+    
+    color: white;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    border-radius: 18px;
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    border: 1.5px white;
+    border-style: solid;
+    outline: none;
+    color: #000000;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;*/
+}
