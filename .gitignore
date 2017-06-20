@@ -1,4 +1,4 @@
-# Logs
+git# Logs
 logs
 *.log
 npm-debug.log*
@@ -57,3 +57,4 @@ typings/
 # dotenv environment variables file
 .env
 
+.DS_Store

@@ -6,27 +6,92 @@ body {
 
 /*classes*/
 
-.flexcontainer {
-    display: flex;
-    direction: row;
-}
-
-.flexFoodSection {
+.columnLayout {
     display: flex;
     direction: column;
 }
 
-.flexSectionItem {
+.sectionHeader {
     display: flex;
     direction: row;
-    justify-content: flex-start;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 28px;
+ 
 }
 
-.flexFoodItem {
+#btnCart {
+  font-size: 24px;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  border: 1.5px white;
+  border-style: solid;
+  outline: none;
+  color: #000000;
+  padding: 5px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+.sidebarFoodSection {
+    display: flex;
+    direction: column;
+    flex: 1;
+}
+
+/*.foodSectionList {
+    display: flex;
+    direction: column;
+   flex: 2;
+}*/
+
+.foodSectionItem {
     display: flex;
     direction: row;
-    justify-content: flex-end;
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
+.mainGrocerySection {
+    display: flex;
+    direction: column;
+    flex: 4
 }
+/*.grocerySectionList {
+    display: flex;
+    direction: column;
+   flex: 2;
+}*/
+
+.groceryListItem {
+    display: flex;
+    direction: row;
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
 
 
 /*Styles for id'd elements in index.html*/
