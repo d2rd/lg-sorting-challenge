@@ -95,28 +95,6 @@ body {
    flex: 2;
 }*/
 
-.groupContainer {
-  display: flex;
-    direction: row;
-    flex: 2;
-    flex-flow: row wrap;
-}
-.groupProduceItems {
-  display: flex;
-    direction: column;
-    flex: 1;
-}
-.groupDeliItems {
-   display: flex;
-    direction: column;
-    flex: 1;
-}
-.groupFrozenItems {
-   display: flex;
-    direction: column;
-    flex: 1;
-}
-
 .grocerySectionColumn {
     display: flex;
     direction: column;
@@ -129,7 +107,7 @@ body {
     direction: row;
     background: tomato;
     padding: 5px;
-    width: 175px;
+    width: 150px;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
