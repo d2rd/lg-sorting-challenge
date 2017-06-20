@@ -1,0 +1,31 @@
+[{
+        "section": "produce",
+        "itemName": "item1",
+        "price": "3.44",
+    },
+    {
+        "section": "produce",
+        "itemName": "item2",
+        "price": "2.22",
+    },
+    {
+        "section": "produce",
+        "itemName": "item3",
+        "price": "3.33",
+    },
+    {
+        "section": "deli",
+        "itemName": "item1",
+        "price": "1.11",
+    },
+    {
+        "section": "deli",
+        "itemName": "item2",
+        "price": "2.22",
+    },
+    {
+        "section": "deli",
+        "itemName": "item3",
+        "price": "3.33",
+    },
+]
