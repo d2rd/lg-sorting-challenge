@@ -39,11 +39,11 @@ body {
   border: 1.5px white;
   border-style: solid;
   outline: none;
-  color: #000000;
+  color: white;
   padding: 5px 2px;
   text-align: center;
   text-decoration: none;
-  
+justify-content: flex-end;
   
 }
 
@@ -107,7 +107,7 @@ body {
     direction: row;
     background: tomato;
     padding: 5px;
-    width: 150px;
+    width: 175px;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -134,8 +134,24 @@ body {
     font-size: 3em;
     text-align: center;
 }
-.groceryItemAddToCart {
-
+/*.groceryItemAddToCart {*/
+  display: flex;
+  font-size: 24px;
+  
+  width: 120px;
+  height: 50px;
+  margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+  background-color: green;
+  border: 1.5px white;
+  border-style: solid;
+  border-radius: 50px;
+  outline: white;
+  color: white;
+  padding: 5px 2px;
+  /*text-align: center;
+  text-decoration: none;*/
 }
 /*Styles for id'd elements in index.html*/
 
@@ -168,13 +184,16 @@ body {
 }
 
 #btnAddToCart {
-    display: flex;
-    direction: row;
+    display: inline-block;
+    direction: column;
     font-family: Georgia, serif;
   font-size: 18px;
   border-radius: 50px;
   width: 120px;
   height: 50px;
+  margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
   background-color: green;
   border: 1.5px white;
   border-style: solid;
