@@ -17,18 +17,23 @@
 
 <body>
     <section class="sectionHeader">
-        <h1>Welcome to Click 'n Grab Grocer</h1><button id="btnCart">Cart</button></align>
+        <div class="headerTitle">
+        <h1>Welcome to Click 'n Grab Grocer</h1>
+        </div>
+        <div class="headerBtnCart"><button id="btnCart">Cart</button></div>
+        </align>
     </section>
 
-    <div class="columnlayout">
-        <div class="sidebarFoodSection">
+    <div class="columnLayout">
+        <div id="foodSections"  class="sidebarFoodSection">
             <ul class="foodSectionList">
                 <li class="foodSectionItem">Produce</li>
                 <li class="foodSectionItem">Deli</li>
                 <li class="foodSectionItem">Frozen</li>
             </ul>
         </div>
-        <div class="mainGrocerySection">
+        <div id="groceryList" class="mainGrocerySection">
+            <div class="grocerySectionColumn">
             <ul class="grocerySectionList">
                 <li class="groceryListItem">item 1</li>
                 <li class="groceryListItem">item 2</li>
@@ -37,6 +42,8 @@
                 <li class="groceryListItem">item 5</li>
                 <li class="groceryListItem">item 6</li>
             </ul>
+            </div>
+            <div class="grocerySectionColumn">
             <ul class="grocerySectionPrice">
                 <li class="groceryItemPrice">1.11</li>
                 <li class="groceryItemPrice">2.22</li>
@@ -45,6 +52,18 @@
                 <li class="groceryItemPrice">5.55</li>
                 <li class="groceryItemPrice">6.66</li>
             </ul>
+            </div>
+            <div class="grocerySectionBtns">
+            <ul class="grocerySectionBtnAddToCart">
+                <!--<button id="btnAddToCart">Add to Cart</button>-->
+                <li class="groceryItemAddToCart"><button id="btnAddToCart">Add to Cart</button></li>
+                <li class="groceryItemAddToCart"><button id="btnAddToCart">Add to Cart</button></li>
+                <li class="groceryItemAddToCart"><button id="btnAddToCart">Add to Cart</button></li>
+                <li class="groceryItemAddToCart"><button id="btnAddToCart">Add to Cart</button></li>
+                <li class="groceryItemAddToCart"><button id="btnAddToCart">Add to Cart</button></li>
+                <li class="groceryItemAddToCart"><button id="btnAddToCart">Add to Cart</button></li>
+            </ul>
+            </div>
         </div>
     </div>
 
