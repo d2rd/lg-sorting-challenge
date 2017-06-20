@@ -41,6 +41,8 @@ body {
     display: flex;
     direction: column;
     flex: 1;
+    border: 1.5px #888f91;
+    border-style: solid;
 }
 
 /*.foodSectionList {
@@ -68,7 +70,9 @@ body {
 .mainGrocerySection {
     display: flex;
     direction: column;
-    flex: 4
+    flex: 4;
+    border: 1.0px #888f91;
+    border-style: solid;
 }
 /*.grocerySectionList {
     display: flex;
@@ -92,7 +96,21 @@ body {
     text-align: center;
   }
 
-
+groceryItemPrice {
+    display: flex;
+    direction: row;
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
 
 /*Styles for id'd elements in index.html*/
 
