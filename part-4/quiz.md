@@ -14,7 +14,7 @@ _Reminder: you can use the internet to help you answer these questions :)_
     A: Bash looks for commands in the default path
 
 - On a UNIX computer, how do you stop a running process?
-    A: ^c ('control-c') stops a running process that is in focus (i.e. not running in the background).
+    A: ^c ('control-c') stops a running process that is in focus (i.e. not running in the background).  Some apps require, like node.js require you hit ^c twice to quit.
 
 - What packages do you have installed via homebrew?
     A: homebrew, postresql, mysql

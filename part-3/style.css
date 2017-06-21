@@ -191,12 +191,14 @@ body {
 
 #btnAddToCart {
     display: flex;
-    direction: row;
+    direction: column;
     font-family: Georgia, serif;
   font-size: 18px;
   border-radius: 50px;
   width: 120px;
   height: 50px;
+  margin-top: 20px;
+    margin-bottom: 10px;
   background-color: green;
   border: 1.5px white;
   border-style: solid;
@@ -205,27 +207,5 @@ body {
   padding: 5px 5px;
   text-align: center;
   text-decoration: none;
-  /*model*/
-
-
-    /*display: flex;
-    
-    color: white;
-    font-weight: normal;
-    font-size: 10px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 50px;
-    border-radius: 18px;
-    width: 150px;
-    height: 50px;
-    background-color: green;
-    border: 1.5px white;
-    border-style: solid;
-    outline: none;
-    color: #000000;
-    padding: 5px 2px;
-    text-align: center;
-    text-decoration: none;*/
+  
 }
